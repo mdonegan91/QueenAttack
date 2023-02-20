@@ -1,3 +1,4 @@
+using System;
 namespace QueenAttack.Business
 {
   public class Queen
@@ -7,9 +8,9 @@ namespace QueenAttack.Business
 
     }
 
-    static bool canQueenHit(Coordinate queenCoord, Coordinate otherCoord)
+    public static bool canQueenHit(Coordinate queenCoord, Coordinate otherCoord)
     {
-      if (queenCoord.x == otherCoord.y)
+      if (queenCoord.x == otherCoord.x)
       {
         return true;
       }

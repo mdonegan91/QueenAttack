@@ -31,7 +31,9 @@ namespace QueenAttack.Tests
     [TestMethod]
     public void GetResult_DetermineQueenHit_Bool()
     {
-      
+      Coordinate coord1 = new Coordinate(1,2);
+      Coordinate coord2 = new Coordinate(1,7);
+      Assert.AreEqual(true, Queen.canQueenHit(coord1, coord2));
     }
   }
 }
