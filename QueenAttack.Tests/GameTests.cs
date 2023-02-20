@@ -12,5 +12,12 @@ namespace QueenAttack.Tests
       Queen newQueen = new Queen();
       Assert.AreEqual(typeof(Queen), newQueen.GetType());
     }
+
+    [TestMethod]
+    public void CoordinateConstructor_CreateInstanceOfCoordinate_Coordinate()
+    {
+      Coordinate newCoordinate = new Coordinate();
+      Assert.AreEqual(typeof(Coordinate), newCoordinate.GetType());
+    }
   }
 }
