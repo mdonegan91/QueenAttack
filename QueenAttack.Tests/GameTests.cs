@@ -19,5 +19,19 @@ namespace QueenAttack.Tests
       Coordinate newCoordinate = new Coordinate();
       Assert.AreEqual(typeof(Coordinate), newCoordinate.GetType());
     }
+
+    [TestMethod]
+    public void CoordinateConstructor_CreateInstanceOfCoordinateWithTwoInts_Coordinate()
+    {
+      Coordinate newCoordinate = new Coordinate(5,5);
+      Assert.AreEqual(5, newCoordinate.x);
+      Assert.AreEqual(5, newCoordinate.y);
+    }
+
+    [TestMethod]
+    public void GetResult_DetermineQueenHit_Bool()
+    {
+      
+    }
   }
 }
