@@ -1,10 +1,10 @@
-# Triangle Tracker
+# Anagram Checker
 
-##### By Molly Donegan & Jackson Levine
+##### By Molly Donegan, Sarah Andyshack & Erin Timlin
 
 #### _Description_ 
 
-_A a console application where the user can enter X and Y coordinates for both a queen and another chess piece. The program will return whether the queen is capable of 'attacking' the other chess piece._
+_A a console application that..._
 
 ## Technologies Used
 
