@@ -1,4 +1,4 @@
-# Triangle Tracker
+# Queen Attack
 
 ##### By Molly Donegan & Jackson Levine
 
